@@ -1,0 +1,82 @@
+/* Estilos da página index.html*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+display: flex;
+flex-flow: row;
+justify-content: center;
+align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: 0.4px solid #FFF2E7;
+
+}
+
+.cabecalho-imagem{
+    height: 65px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px; 
+}
+ .cabecalho-menu-item:hover{
+     color: #d53369;
+ }
+
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tm-social{
+    padding: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/* Estilos da página contatos.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
